@@ -1,0 +1,60 @@
+﻿@model WebApplication1.Models.Teacher
+@*@model IList<WebApplication1.Models.Teacher>*@
+
+@*Id:@Model.Id
+<br />
+Name:@Model.Name
+<br />
+Description:@Model.Description
+<br />
+Exit:@Model.Exit*@
+
+@*@foreach (Teacher item in Model)
+{
+    <span>Id:</span>@item.Id
+    <br />
+    
+    <span> Name:</span> @item.Name
+    <br />
+    
+    <span> Description:</span>@item.Description
+     <br />
+     
+    <span> Exit:</span>@item.Exit
+    <hr />
+    
+}*@
+
+Id : @ViewBag.T1.Id
+<br />
+Name : @ViewBag.T1.Name
+<br />
+Description : @ViewBag.T1.Description
+<br />
+Exit : @ViewBag.T1.Exit
+<br />
+<br />
+<hr />
+
+
+
+Id : @ViewBag.T2.Id
+<br />
+Name : @ViewBag.T2.Name
+<br />
+Description : @ViewBag.T2.Description
+<br />
+Exit : @ViewBag.T2.Exit
+<br />
+<br />
+<hr />
+
+
+Id : @ViewBag.T2.Id
+<br />
+Name : @ViewBag.T2.Name
+<br />
+Description : @ViewBag.T2.Description
+<br />
+Exit : @ViewBag.T2.Exit
+<hr />
